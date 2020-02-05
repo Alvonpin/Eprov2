@@ -22,7 +22,7 @@ namespace Eprov2
 
             //sucessRate bestämmer om undersökningen lyckas eller inte. 
             //Värdet beror på mängden stöldgods. Om mägden är stor ökar sannorlikheten att undersökningen lyckas.
-            int sucessRate = Generator.Next(0, contrabandAmount + 1);
+            int sucessRate = Generator.Next(0, contrabandAmount);
 
             if ( sucessRate > 0 )
             {
